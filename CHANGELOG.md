@@ -1,3 +1,98 @@
+## [4.8.0](https://github.com/ipfs/ipfs-webui/compare/v4.7.0...v4.8.0) (2025-08-07)
+
+
+ CID `bafybeifplj2s3yegn7ko7tdnwpoxa4c5uaqnk2ajnw5geqm34slcj6b6mu`
+
+ --- 
+
+
+
+### Features
+
+* add async provide on share/copy/pin/ipns ([#2387](https://github.com/ipfs/ipfs-webui/issues/2387)) ([cfea7d4](https://github.com/ipfs/ipfs-webui/commit/cfea7d40c2affb662c8533d16386643c6d23ef96))
+
+
+### Bug Fixes
+
+* eslint doesnt check build folder ([#2389](https://github.com/ipfs/ipfs-webui/issues/2389)) ([2a6c64a](https://github.com/ipfs/ipfs-webui/commit/2a6c64a7de3f70a7df4bddce0d984790ac3317bb))
+* refresh stale multiaddrs on the Status page ([#2385](https://github.com/ipfs/ipfs-webui/issues/2385)) ([6c361c4](https://github.com/ipfs/ipfs-webui/commit/6c361c46a301ea3ac9232aada1429f63085509ca))
+* stop sending requests to defunct countly ([#2395](https://github.com/ipfs/ipfs-webui/issues/2395)) ([fb9c981](https://github.com/ipfs/ipfs-webui/commit/fb9c981d937bc8f5085a8e434650ec1e3fadfa8a)), closes [#2334](https://github.com/ipfs/ipfs-webui/issues/2334)
+
+
+### Trivial Changes
+
+* fix all eslint warnings in root ([#2378](https://github.com/ipfs/ipfs-webui/issues/2378)) ([0e9fe55](https://github.com/ipfs/ipfs-webui/commit/0e9fe55a1e7e0aface8a4a8e62427f4d9f7caf94))
+* Pull transifex translations ([#2364](https://github.com/ipfs/ipfs-webui/issues/2364)) ([424c8a8](https://github.com/ipfs/ipfs-webui/commit/424c8a885ae29596cad411de0d29f6d4585dba60))
+* Pull transifex translations ([#2384](https://github.com/ipfs/ipfs-webui/issues/2384)) ([575da08](https://github.com/ipfs/ipfs-webui/commit/575da08fb66bb563aa6992ffad58d50633227832))
+* Pull transifex translations ([#2386](https://github.com/ipfs/ipfs-webui/issues/2386)) ([9a78d5f](https://github.com/ipfs/ipfs-webui/commit/9a78d5ffd96a85c024aee652f80b05de90ef76a4))
+
+## [4.7.0](https://github.com/ipfs/ipfs-webui/compare/v4.6.0...v4.7.0) (2025-04-09)
+
+
+ CID `bafybeibfd5kbebqqruouji6ct5qku3tay273g7mt24mmrfzrsfeewaal5y`
+
+ --- 
+
+
+
+### Features
+
+* Add thumbnails support for files in grid view ([#2337](https://github.com/ipfs/ipfs-webui/issues/2337)) ([546d20a](https://github.com/ipfs/ipfs-webui/commit/546d20af2a7b6bcbb7ee759d9f94efc5ac62ce46))
+
+
+### Trivial Changes
+
+* remove web3.storage and Scaleway ([#2353](https://github.com/ipfs/ipfs-webui/issues/2353)) ([8939bea](https://github.com/ipfs/ipfs-webui/commit/8939bea5743350a1980cfa3c850aeb109cdededd))
+
+## [4.6.0](https://github.com/ipfs/ipfs-webui/compare/v4.5.0...v4.6.0) (2025-03-14)
+
+
+ CID `bafybeibpaa5kqrj4gkemiswbwndjqiryl65cks64ypwtyerxixu56gnvvm`
+
+ --- 
+
+
+
+### Features
+
+* add dark mode ([#2322](https://github.com/ipfs/ipfs-webui/issues/2322)) ([d751fc6](https://github.com/ipfs/ipfs-webui/commit/d751fc63903bc72086b177f82bc4933136e89d0f))
+* bulk CIDs import  ([#2307](https://github.com/ipfs/ipfs-webui/issues/2307)) ([830a30d](https://github.com/ipfs/ipfs-webui/commit/830a30d6c3ab4d38eee0aa160d1a22bd959473b7)), closes [#2305](https://github.com/ipfs/ipfs-webui/issues/2305) [#2306](https://github.com/ipfs/ipfs-webui/issues/2306) [#2293](https://github.com/ipfs/ipfs-webui/issues/2293) [#2290](https://github.com/ipfs/ipfs-webui/issues/2290) [#2306](https://github.com/ipfs/ipfs-webui/issues/2306) [#2304](https://github.com/ipfs/ipfs-webui/issues/2304) [#2302](https://github.com/ipfs/ipfs-webui/issues/2302) [#2292](https://github.com/ipfs/ipfs-webui/issues/2292) [#2291](https://github.com/ipfs/ipfs-webui/issues/2291) [#2296](https://github.com/ipfs/ipfs-webui/issues/2296) [#2303](https://github.com/ipfs/ipfs-webui/issues/2303) [#2295](https://github.com/ipfs/ipfs-webui/issues/2295) [#2308](https://github.com/ipfs/ipfs-webui/issues/2308)
+* **files:** CAR Import ([#2323](https://github.com/ipfs/ipfs-webui/issues/2323)) ([e66590f](https://github.com/ipfs/ipfs-webui/commit/e66590fc592bf44e4ae770c43c33467bd698cdbf))
+
+
+### Trivial Changes
+
+* Pull transifex translations ([#2340](https://github.com/ipfs/ipfs-webui/issues/2340)) ([493223a](https://github.com/ipfs/ipfs-webui/commit/493223a461bdb6dd0be38b8665a4a73d54d5a337))
+* Pull transifex translations ([#2343](https://github.com/ipfs/ipfs-webui/issues/2343)) ([007dbb1](https://github.com/ipfs/ipfs-webui/commit/007dbb14ffaa8eec69042d2476f91b7cb8c6b73b))
+
+## [4.5.0](https://github.com/ipfs/ipfs-webui/compare/v4.4.2...v4.5.0) (2025-02-25)
+
+
+ CID `bafybeiata4qg7xjtwgor6r5dw63jjxyouenyromrrb4lrewxrlvav7gzgi`
+
+ --- 
+
+
+
+### Features
+
+* add QR Code to ShareModal ([#2320](https://github.com/ipfs/ipfs-webui/issues/2320)) ([5dbccfd](https://github.com/ipfs/ipfs-webui/commit/5dbccfd08f19d2e890bc95dffd98dc6ac13cc389))
+
+
+### Bug Fixes
+
+* add hint about basic http auth for rpc ([#2338](https://github.com/ipfs/ipfs-webui/issues/2338)) ([7d00889](https://github.com/ipfs/ipfs-webui/commit/7d008895ed0fdf635043c0796a5ef83efa891fc4))
+* **ci:** cluster pinning with timeout and retry ([#2321](https://github.com/ipfs/ipfs-webui/issues/2321)) ([9007e98](https://github.com/ipfs/ipfs-webui/commit/9007e98406c3eb71d3cb367f5ae1a87a5827a934))
+* **ci:** typo in ci.yml ([7fbb51b](https://github.com/ipfs/ipfs-webui/commit/7fbb51bf23192dda3527e2944a6b7b14e810a869))
+* **peers:** chrome regression and update ipfs-geoip to v9.2 ([#2333](https://github.com/ipfs/ipfs-webui/issues/2333)) ([699f735](https://github.com/ipfs/ipfs-webui/commit/699f735b0c13ad1b70444e9e27c32f61df03b776))
+
+
+### Trivial Changes
+
+* add console warning ([#2332](https://github.com/ipfs/ipfs-webui/issues/2332)) ([76a0c52](https://github.com/ipfs/ipfs-webui/commit/76a0c52e2c719d116bfea757856c0488a2de1ff4))
+* **deps:** bump actions/setup-go from 4 to 5 ([#2221](https://github.com/ipfs/ipfs-webui/issues/2221)) ([412b89f](https://github.com/ipfs/ipfs-webui/commit/412b89fb75ee4e84cd8a39a399679c568026de30))
+* pull transifex translations ([#2331](https://github.com/ipfs/ipfs-webui/issues/2331)) ([e62b487](https://github.com/ipfs/ipfs-webui/commit/e62b48738e01bbc9208d5d4664ae33db25ce7e6e))
+
 ## [4.4.2](https://github.com/ipfs/ipfs-webui/compare/v4.4.1...v4.4.2) (2024-12-20)
 
 

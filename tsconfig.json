@@ -46,16 +46,20 @@
     ],
     "allowSyntheticDefaultImports": true,
     "isolatedModules": true,
-    "jsx": "react-jsx",
+    "jsx": "react",
     "baseUrl": ".",
-    "module": "esnext"
+    "module": "esnext",
+    "paths": {
+      "*": ["*", "*.ts", "*.tsx"]
+    }
   },
   "exclude": [
     "./src/test",
-    "src/**/*.test.js",
+    "src/**/*.test.js"
   ],
   "include": [
     "**/*.ts",
+    // "**/*.tsx",
     "@types",
     // "src/**/*.js", // TODO: Include all js files when typecheck passes
     "src/bundles/files/**/*.js",
@@ -76,5 +80,16 @@
     "src/env.js",
     "src/lib/hofs/**/*.js",
     "src/lib/guards.js",
+    "src/files/file-preview/file-thumbnail.tsx",
+    "src/files/type-from-ext/index.js",
+    "src/files/files-grid/files-grid.tsx",
+    "src/files/files-grid/grid-file.tsx",
+    "src/files/file-icon/FileIcon.js",
+    "src/files/pin-icon/PinIcon.js",
+    "src/icons/**/*.tsx",
+    "src/components/checkbox/Checkbox.js",
+    "src/files/type-from-ext/extToType.js",
+    "src/helpers/context-bridge.tsx",
+    "src/helpers/connected-context-provider.tsx"
   ]
 }
